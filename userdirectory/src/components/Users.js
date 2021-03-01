@@ -75,6 +75,16 @@ class Users extends React.Component {
       : this.setState({ sortDirection: "ascending", col: col });
   };
 
+  //Manages sort direction based on 1 value or -1
+  sortUsers = (a, b) => {
+    if (a[this.state.col] < b[this.state.col]) {
+      return this.state.sortDirection === "ascending" ? -1 : 1;
+    } else if (a[this.state.col] > b[this.state.col]) {
+      return this.state.sortDirection === "ascending" ? 1 : -1;
+    }
+    return 0;
+  };
+
   //render the user container including search field
   render() {
     return (
