@@ -1,11 +1,11 @@
 import axios from "axios"; 
+const APIURL = "https://randomuser.me/api/?results=99"
 
-function ListOfUsers() {
-    return axios.get("https://randomuser.me/api/?results=200&nat=US");
-}
-
-
-// eslint-disable-next-line import/no-anonymous-default-export
-export default {
-    ListOfUsers
+const API = {
+  ListOfUsers: function() {
+    
+    return axios.get(APIURL);
+  }
 };
+
+export default API;
