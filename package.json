@@ -1,5 +1,6 @@
 {
   "name": "userdirectory",
+  "homepage": "https://MartinRenteria.github.io/User-Directory-",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
