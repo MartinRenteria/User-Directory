@@ -20,7 +20,7 @@
 
 Here is a photo of the User Directory app.
 
-![Progressive-Budget](userdirectory/public/img/User-directory.png)
+![Progressive-Budget](public/img/User-directory.png)
 
 ## Contributing
 I am the sole contributor on this project.
