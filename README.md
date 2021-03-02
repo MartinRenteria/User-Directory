@@ -3,10 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
+An employee directory built with a react UI. 
 
 ## Table of Contents
 * [Installation](#Installation)
-* [Usage](#Usage)
 * [Contributing](#Contributing)
 * [License](#License)
 * [Questions](#Questions)
@@ -14,6 +14,12 @@
 ## Installation
 * Clone the repo [here](https://github.com/MartinRenteria/User-Directory-) 
 
+* Install the dependencies and devDependencies and start the server.
+
+```sh
+npm i
+npm start
+```
 
 ## **Screenshot**
 
